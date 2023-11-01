@@ -1,1 +1,1 @@
-# cookbook_graphQL
+# GraphQL cookbook demo appp built with Python/Django/Graphene
