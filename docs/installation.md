@@ -1,4 +1,6 @@
-# Activate Python Shell Environement and install deps
+# Pipenv Shell
+
+## Activate Python Shell Environement and install deps
 
 1. pip install pipenv
 2. pipenv shell
