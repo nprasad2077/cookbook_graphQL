@@ -24,7 +24,7 @@ class Query(graphene.ObjectType):
     def resolve_category_by_name(root, info, name):
         try:
             return Category.objects.get(name=name)
-        except
+        except:
             return None
         
 schema = graphene.Schema(query=Query)
