@@ -42,4 +42,20 @@ query MyQuery5 {
     name
   }
 }
+
+query MyQuery6 {
+  allIngredients {
+    id
+    name
+  }
+}
+
+query MyQuery7 {
+  allIngredients {
+    name
+    category {
+      name
+    }
+  }
+}
 ```
